@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+body {
+  @apply bg-midnight text-soft antialiased;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.card {
+  @apply bg-white/5 border border-white/10 rounded-2xl p-6 shadow-soft;
+}
+
+.btn {
+  @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 font-semibold text-midnight bg-gradient-to-r from-electric to-sky shadow-soft hover:opacity-95 active:opacity-90 transition;
+}
